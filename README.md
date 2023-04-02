@@ -87,5 +87,7 @@ pm2 status
 
 - then you need to add the port `3000` to the security group inbound rules.
 
+- add the `public ip` of the EC2 instance to the `CORS` configuration in the s3 bucket.
+
 - then you need to open the `public ip` in the browser and upload a file to the s3 bucket.
 
