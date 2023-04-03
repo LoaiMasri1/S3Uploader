@@ -28,7 +28,6 @@ app.get("/", async (req: Request, res: Response) => {
   const images = prepareImageList(await getAllImages());
 
   res.render("index", {
-    loading: false,
     images: images || [],
     error: null,
     success: null,
